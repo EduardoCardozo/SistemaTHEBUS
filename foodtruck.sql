@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS `produto` (
   `Preco` double NOT NULL,
   `Quantidade` int(11) NOT NULL,
   PRIMARY KEY (`Id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
 
 -- Copiando dados para a tabela foodtruck.produto: ~4 rows (aproximadamente)
 /*!40000 ALTER TABLE `produto` DISABLE KEYS */;
@@ -30,7 +30,8 @@ INSERT INTO `produto` (`Id`, `Nome`, `Preco`, `Quantidade`) VALUES
 	(1, 'Hamburguer de Costela', 22, 150),
 	(2, 'Big Bus', 20, 150),
 	(3, 'Sanduiche de Costela', 18, 100),
-	(4, 'Sanduiche de Pernil', 18, 100);
+	(4, 'Sanduiche de Pernil', 18, 100),
+	(5, 'dsdds', 23, 323);
 /*!40000 ALTER TABLE `produto` ENABLE KEYS */;
 
 
