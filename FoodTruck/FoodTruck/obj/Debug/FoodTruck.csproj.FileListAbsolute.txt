@@ -13,3 +13,19 @@ c:\users\alunoct\documents\visual studio 2013\Projects\FoodTruck\FoodTruck\obj\D
 c:\users\alunoct\documents\visual studio 2013\Projects\FoodTruck\FoodTruck\obj\Debug\FoodTruck.csproj.GenerateResource.Cache
 c:\users\alunoct\documents\visual studio 2013\Projects\FoodTruck\FoodTruck\obj\Debug\FoodTruck.exe
 c:\users\alunoct\documents\visual studio 2013\Projects\FoodTruck\FoodTruck\obj\Debug\FoodTruck.pdb
+D:\SistemaTHEBUS\FoodTruck\FoodTruck\bin\Debug\FoodTruck.exe.config
+D:\SistemaTHEBUS\FoodTruck\FoodTruck\obj\Debug\FoodTruck.pdb
+D:\SistemaTHEBUS\FoodTruck\FoodTruck\obj\Debug\FoodTruck.csprojResolveAssemblyReference.cache
+D:\SistemaTHEBUS\FoodTruck\FoodTruck\obj\Debug\MainWindow.baml
+D:\SistemaTHEBUS\FoodTruck\FoodTruck\obj\Debug\MainWindow.g.cs
+D:\SistemaTHEBUS\FoodTruck\FoodTruck\obj\Debug\App.g.cs
+D:\SistemaTHEBUS\FoodTruck\FoodTruck\obj\Debug\FoodTruck_MarkupCompile.cache
+D:\SistemaTHEBUS\FoodTruck\FoodTruck\obj\Debug\FoodTruck.g.resources
+D:\SistemaTHEBUS\FoodTruck\FoodTruck\obj\Debug\FoodTruck.Properties.Resources.resources
+D:\SistemaTHEBUS\FoodTruck\FoodTruck\obj\Debug\FoodTruck.csproj.GenerateResource.Cache
+D:\SistemaTHEBUS\FoodTruck\FoodTruck\bin\Debug\FoodTruck.exe
+D:\SistemaTHEBUS\FoodTruck\FoodTruck\bin\Debug\FoodTruck.pdb
+D:\SistemaTHEBUS\FoodTruck\FoodTruck\bin\Debug\MySql.Data.dll
+D:\SistemaTHEBUS\FoodTruck\FoodTruck\bin\Debug\Newtonsoft.Json.dll
+D:\SistemaTHEBUS\FoodTruck\FoodTruck\bin\Debug\Newtonsoft.Json.xml
+D:\SistemaTHEBUS\FoodTruck\FoodTruck\obj\Debug\FoodTruck.exe

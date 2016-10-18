@@ -23,6 +23,7 @@ namespace FoodTruck
     /// </summary>
     public partial class MainWindow : Window
     {
+        const string strconn = "Server=localhost;Database=foodtruck;Uid=root;Pwd=";
         public MainWindow()
         {
             InitializeComponent();
@@ -30,20 +31,18 @@ namespace FoodTruck
         }
 
         private void btn_1_Click(object sender, RoutedEventArgs e)
-        {
+        {/*
             string query = "SELECT p.Preco FROM Produto p WHERE p.Nome = '{0}'";
-            MySqlCommand cmd = new MySqlCommand
-            {
-                Connection = new MySqlConnection("Server=localhost;Database=foodtruck;Uid=root;Pwd="),
-                CommandText = String.Format(query, cb_produtos.SelectedItem)
-            };
+
+            MySqlCommand cmd = new MySqlCommand(String.Format(query, cb_produtos.SelectedItem), new MySqlConnection(strconn));
+            
             cmd.Connection.Open();
             MySqlDataReader r = cmd.ExecuteReader();
             r.Read();
             double total = r.GetDouble(0) * Convert.ToInt32(txt_qtd.Text);
             
 
-            query = "INSERT INTO RegistroVenda (Data, PrecoTotal) VALUES ('{0}', {1})";
+            query = "INSERT INTO registrovenda (Data, PrecoTotal) VALUES ('{0}', {1})";
  
             DateTime dataHora = DateTime.Now;
             string txtBanco = dataHora.ToString(new CultureInfo("en-US"));                
@@ -51,6 +50,8 @@ namespace FoodTruck
 
             cmd.ExecuteNonQuery();
             cmd.Connection.Close();
+            */
+
         }
         
         
@@ -58,21 +59,40 @@ namespace FoodTruck
         {
             string query = "SELECT p.Nome FROM Produto p";
 
-
-            MySqlCommand cmd = new MySqlCommand
-            {
-                Connection = new MySqlConnection("Server=localhost;Database=foodtruck;Uid=root;Pwd="),
-                CommandText = query
-            };
-
+            MySqlCommand cmd = new MySqlCommand(query, new MySqlConnection(strconn));
             cmd.Connection.Open();
 
             MySqlDataReader r = cmd.ExecuteReader();
 
-            while (r.Read())
-                cb_produtos.Items.Add(r.GetString(0));
+            //while (r.Read())
+              //  cb_produtos.Items.Add(r.GetString(0));
 
             cmd.Connection.Close();
+        }
+
+        private void imgProduto_Loaded(object sender, RoutedEventArgs e)
+        {
+            BitmapImage b = new BitmapImage();
+            b.BeginInit();
+            b.UriSource = new Uri("C:\\Users\\alunoct\\Desktop\\FB_IMG_1476812090155.jpg");
+            b.EndInit();
+            
+            imgProduto.Source = b;
+            
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            int qtd = Convert.ToInt32(txtb1.Text);
+
+            txtb1.Text = Convert.ToString(qtd + 1);
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            int qtd = Convert.ToInt32(txtb1.Text);
+
+            txtb1.Text = Convert.ToString(qtd - 1);
         }
     }
 }
