@@ -27,7 +27,8 @@ namespace FoodTruck
         public MainWindow()
         {
             InitializeComponent();
-            PreencherComboBox();      
+            PreencherComboBox();
+           
         }
 
         private void btn_1_Click(object sender, RoutedEventArgs e)
@@ -74,7 +75,7 @@ namespace FoodTruck
         {
             BitmapImage b = new BitmapImage();
             b.BeginInit();
-            b.UriSource = new Uri("C:\\Users\\alunoct\\Desktop\\FB_IMG_1476812090155.jpg");
+            b.UriSource = new Uri("C:\\Users\\alunoct\\Desktop\\theburguer.jpg");
             b.EndInit();
             
             imgProduto.Source = b;
@@ -91,8 +92,16 @@ namespace FoodTruck
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             int qtd = Convert.ToInt32(txtb1.Text);
-
+           
             txtb1.Text = Convert.ToString(qtd - 1);
         }
+
+        private void btnalt_click(object sender, RoutedEventArgs e)
+        {
+           new windowalt().Show();
+           txtb1.Text = (int.Parse(txtb1.Text) + 1).ToString();
+        }
+
+        
     }
 }

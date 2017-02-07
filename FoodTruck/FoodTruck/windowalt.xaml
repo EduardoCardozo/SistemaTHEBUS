@@ -1,0 +1,11 @@
+﻿<Window x:Class="FoodTruck.windowalt"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="windowalt" Height="300" Width="300">
+    <Grid>
+        <Button x:Name="BTN_S" Content="SIM" HorizontalAlignment="Left" Margin="43,179,0,0" VerticalAlignment="Top" Width="75" FontWeight="Bold" Click="BTN_S_Click"/>
+        <Button x:Name="BTN_N" Content="NÃO" HorizontalAlignment="Left" Margin="165,179,0,0" VerticalAlignment="Top" Width="75" FontWeight="Bold" Click="BTN_N_Click"/>
+        <Label Content="DESEJA ALTERAR INGREDIENTES?" HorizontalAlignment="Left" Margin="43,110,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
