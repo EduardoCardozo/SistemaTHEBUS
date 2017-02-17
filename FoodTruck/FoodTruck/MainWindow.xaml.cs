@@ -73,12 +73,7 @@ namespace FoodTruck
 
         private void imgProduto_Loaded(object sender, RoutedEventArgs e)
         {
-            BitmapImage b = new BitmapImage();
-            b.BeginInit();
-            b.UriSource = new Uri("C:\\Users\\alunoct\\Desktop\\theburguer.jpg");
-            b.EndInit();
             
-            imgProduto.Source = b;
             
         }
 
@@ -96,12 +91,19 @@ namespace FoodTruck
             txtb1.Text = Convert.ToString(qtd - 1);
         }
 
-        private void btnalt_click(object sender, RoutedEventArgs e)
+        private void txt_busca_GotFocus(object sender, RoutedEventArgs e)
         {
-           new windowalt().Show();
-           txtb1.Text = (int.Parse(txtb1.Text) + 1).ToString();
+            txt_busca.Text = "";
         }
 
-        
+        private void txt_busca_LostFocus(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+        private void Btn_Buscar_Click(object sender, RoutedEventArgs e)
+        {
+           
+        }       
     }
 }

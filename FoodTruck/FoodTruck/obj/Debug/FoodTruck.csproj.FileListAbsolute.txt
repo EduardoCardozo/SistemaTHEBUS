@@ -29,7 +29,4 @@ D:\SistemaTHEBUS\FoodTruck\FoodTruck\bin\Debug\MySql.Data.dll
 D:\SistemaTHEBUS\FoodTruck\FoodTruck\bin\Debug\Newtonsoft.Json.dll
 D:\SistemaTHEBUS\FoodTruck\FoodTruck\bin\Debug\Newtonsoft.Json.xml
 D:\SistemaTHEBUS\FoodTruck\FoodTruck\obj\Debug\FoodTruck.exe
-D:\SistemaTHEBUS\FoodTruck\FoodTruck\obj\Debug\windowalt.baml
-D:\SistemaTHEBUS\FoodTruck\FoodTruck\obj\Debug\windowalt.g.cs
-D:\SistemaTHEBUS\FoodTruck\FoodTruck\obj\Debug\windowaltesp.baml
-D:\SistemaTHEBUS\FoodTruck\FoodTruck\obj\Debug\windowaltesp.g.cs
+D:\SistemaTHEBUS\FoodTruck\FoodTruck\obj\Debug\App.baml
